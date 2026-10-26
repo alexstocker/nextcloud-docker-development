@@ -13,7 +13,7 @@ Created and tested for use with Ubuntu 20.04. But should work on any system supp
 ### Install
 1. your@machine:$ `git clone https://github.com/alexstocker/nextcloud-docker-development.git`
 2. your@machine:$ `cd nextcloud-docker-development`
-3. your@machine:...nextcloud-docker-development$ `composer install`
+3. your@machine:...nextcloud-docker-development$ `composer install --prefer-source --ignore-platform-reqs`
 4. your@machine:...nextcloud-docker-development$ `composer docker-up`
 5. your@machine:...nextcloud-docker-development$ `sudo chown -Rf [USER]:[GROUP] sensorlogger/` (adjust [USER] and [GROUP] to fit your needs)
 6. your@machine:...nextcloud-docker-development$ `cd sensorlogger`
